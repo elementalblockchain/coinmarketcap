@@ -5,11 +5,12 @@ font-family:serif;
 color:green;
 }
 
-.listheader{
-  font-weight:bold;
-  font-size:25px;
-  margin:5px;
-  color:blue;
+h2{
+font-size:30px;
+font-weight:bold;
+font-family:serif;
+color:blue;
+text-align:center;
 }
 
 .listbody{
