@@ -5,8 +5,9 @@ let ENDPOINT = "coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100
 let url = BASE_URL + ENDPOINT
 
 $(document).ready(function(){
+    var list = document.getElementById('coinlist');
     for (i = 0; i <= 10; i++) {
-      document.getElementById('coinlist').innerHTML += ('<li>'+ i +'</li>');
+      var entry = document.createElement('li');
+      list.appendChild(entry);
     }
-
 });
