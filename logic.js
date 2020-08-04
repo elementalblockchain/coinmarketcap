@@ -40,6 +40,9 @@ $(document).ready(function(){
           cell5.innerHTML = vol24;
           cell6.innerHTML = supply;
           cell7.innerHTML = change24;
+          if (change24 >= 0) {cell7.style.color = 'green';};
+          if (change24 < 0) {cell7.style.color = 'red';};
+
         }
       });
     });
